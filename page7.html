@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <label>User Name</label>
+        <input type="text" name="username" placeholder="Enter an unique username" required="true" value="sample value"> 
+
+        <!-- type can be text,email or password -->
+        <!-- required => should complete that line-->
+        <!--value => displaying a sample value-->
+        <br><br>
+
+        <label>Disabled user Name</label>
+        <input type="text" name="username" disabled>  
+        
+        <!-- disable => disable input line-->
+        <br><br>
+
+        <label>Read only user Name</label>
+        <input type="text" name="username" readonly> 
+
+        <!-- readonly cannot be edited-->
+
+        <br><br>
+
+        <label>Password</label>
+        <input type="password" name="password" required="true" placeholder="Enter your password here"> <!-- password input type-->
+
+        <br><br>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder= "Enter your email here"> <!-- email input type-->
+
+        <br><br>
+
+        <label>Address</label>
+        <textarea name="address" rows="5" cols="50" placeholder="Enter your address here"></textarea>    <!-- text ares can be resize-->
+
+        <br><br>
+
+        <label>Country</label>
+            <select name="Country">
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="India">India</option>
+                <option value="Australia">Australia</option>
+                <option value="England" selected>England</option>   <!-- selected = by default value-->
+            </select>
+
+        <br><br>
+
+        <label>Option 1</label>
+            <input type="radio" name="select" value="opt1">
+        <label>Option 2</label>  
+            <input type="radio" name="select" value="opt2">
+
+        <br><br>
+
+        <label>Agree to T&C</label>
+        <input type="checkbox" name="terms" value="agree" checked>  <!-- checked = by default checked the checkbox-->
+
+        <br><br>
+
+        <label>Profile Picture</label>
+        <input type="file" name="dp">
+
+        <br><br>
+
+        <button>Submit</button>
+    </form>
+</body>
+</html>

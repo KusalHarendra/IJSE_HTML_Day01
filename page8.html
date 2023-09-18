@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Form</title>
+</head>
+<body>
+    <form>
+        <label>First Name </label><input type="text" name="fname" required="true" placeholder="Enter your first name">
+        <br><br>
+
+        <label>Last Name </label><input type="text" name="lname" required="true" placeholder="Enter your last name">
+        <br><br>
+
+        <label>User Name </label><input type="text" name="username" required="true" placeholder="Enter an unique username">
+        <br><br>
+
+        <label>Password </label><input type="password" name="password" required="true" placeholder="Enter a valid password">
+        <br><br>
+
+        <label>Email </label><input type="email" name="email" required="true" placeholder="Enter your valid email">
+        <br><br>
+
+        <label>Telephone </label><input type="text" name="tel">
+        <br><br>
+
+        <label>Address </label><textarea name="address" cols="30" rows="10" required="true" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <label>City </label>
+            <select name="city">
+                <option value="kalutara">Kalutara</option>
+                <option value="colombo" selected>Colombo</option>
+                <option value="gampaha">Gampaha</option>
+                <option value="galle">Galle</option>
+                <option value="matara">Matara</option>
+                <option value="Sanandreas">Matara</option>
+                <option value="Melbourne">Matara</option>
+                <option value="Delhi">Matara</option>
+            </select>
+        <br><br>
+
+        <label>Country </label>
+            <select name="country">
+                <option value="Sri Lanka" selected>Sri Lanka</option>
+                <option value="USA">USA</option>
+                <option value="England">England</option>
+                <option value="Australia">Australia</option>
+                <option value="India">India</option>
+            </select>
+        <br><br>
+
+        <label>Gender  : </label>
+        <label>Male</label>
+        <input type="radio" name="select" value="male">
+        <label>Female</label>  
+        <input type="radio" name="select" value="female">
+        <br><br>
+
+        <label>Agree to T&Cs </label><input type="checkbox" name="terms" checked>
+        <br><br>
+
+
+        <label>Enable Notifications </label><input type="checkbox" name="notifications">
+        <br><br>
+
+        <button>Register</button>
+    </form>
+    
+</body>
+</html>
